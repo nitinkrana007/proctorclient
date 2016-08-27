@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="600.0" styleClass="anchorpane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">   
+
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="1000.0" minWidth="1000.0" prefWidth="1000.0" />
+           
+            
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="1000.0" minHeight="1000.0" prefHeight="1000.0" vgrow="SOMETIMES" />
+         
+        </rowConstraints>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+   <children>
+      <Button mnemonicParsing="false" text="Button" />
+   </children>
+      </GridPane>

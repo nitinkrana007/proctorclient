@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.cell.*?>
+  
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="700.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.digiproc.test.controller.TestDetailsController">
+    <stylesheets>
+        <URL value="@homepage.css" />
+    </stylesheets>
+   <children>
+      <BorderPane layoutX="25.0" layoutY="17.0" prefHeight="449.0" prefWidth="578.0">
+         <left>
+            <VBox prefHeight="188.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="Dashboard" />
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="User Management" />
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="Tests" />
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="Packages" />
+                  <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="100.0" text="Billing" />
+                  <BorderPane prefHeight="0.0" prefWidth="100.0" />
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <FlowPane prefHeight="31.0" prefWidth="380.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="475.0" text="Test Management" />
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" text="Create New" />
+               </children>
+            </FlowPane>
+         </top>
+         <center>
+            <TableView  fx:id="fxTableView" prefHeight="418.0" prefWidth="293.0" BorderPane.alignment="CENTER">
+              <columns>
+                  <TableColumn fx:id="fxIntTestId" prefWidth="75.0" text="Test Id" />
+                  <TableColumn fx:id="fxStrTestName" prefWidth="75.0" text="Test Name" />
+                  <TableColumn fx:id="fxDteTestDate" prefWidth="75.0" text="Test Date" />
+                  <TableColumn fx:id="fxIntTestDuration" prefWidth="75.0" text="Test Duration" />
+                  <TableColumn fx:id="fxIntTestNoOfProctors" prefWidth="75.0" text="Test Proctors" />
+              </columns>
+             
+            </TableView>
+         </center>
+         <bottom>
+             <Pagination layoutX="269.0" layoutY="442.0" prefHeight="73.0" prefWidth="200.0" />
+         </bottom>    
+      </BorderPane>
+    </children>
+</AnchorPane>

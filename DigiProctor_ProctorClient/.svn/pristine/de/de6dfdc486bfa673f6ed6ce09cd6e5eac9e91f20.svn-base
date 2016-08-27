@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="1000.0" styleClass="anchorpane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.digiproctor.controller.ProctorClientController">
+
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+      <ColumnConstraints maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+      <ColumnConstraints maxWidth="1000.0" minWidth="1000.0" prefWidth="1000.0" />
+           
+            
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="177.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="474.0" minHeight="7.0" prefHeight="435.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="420.0" minHeight="7.0" prefHeight="101.0" vgrow="SOMETIMES" />
+         
+        </rowConstraints>
+	  <children>
+	      <WebView fx:id="webviewProctorClient" minWidth="1000.0" prefHeight="200.0" prefWidth="1000.0" GridPane.columnSpan="3" GridPane.rowSpan="3" />
+	    
+	            
+	        
+	      
+	   </children>
+        
+      </GridPane>

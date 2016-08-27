@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+	minWidth="-Infinity" prefHeight="800.0" prefWidth="1366.0"
+	style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.digiproctor.controller.ProctorClientController">
+	<columnConstraints>
+		<ColumnConstraints hgrow="SOMETIMES" maxWidth="341.5"
+			minWidth="341.5" prefWidth="341.5" />
+		<ColumnConstraints hgrow="SOMETIMES" maxWidth="341.5"
+			minWidth="341.5" prefWidth="341.5" />
+		<ColumnConstraints hgrow="SOMETIMES" maxWidth="341.5"
+			minWidth="341.5" prefWidth="341.5" />
+		<ColumnConstraints hgrow="SOMETIMES" maxWidth="341.5"
+			minWidth="341.5" prefWidth="341.5" />
+	</columnConstraints>
+	<rowConstraints>
+		<RowConstraints maxHeight="130.0" minHeight="130.0"
+			prefHeight="130.0" vgrow="SOMETIMES" />
+		<RowConstraints maxHeight="228.33" minHeight="228.33"
+			prefHeight="228.33" vgrow="SOMETIMES" />
+		<RowConstraints maxHeight="228.33" minHeight="202.0"
+			prefHeight="228.33" vgrow="SOMETIMES" />
+		<RowConstraints maxHeight="228.33" minHeight="228.33"
+			prefHeight="228.33" vgrow="SOMETIMES" />
+	</rowConstraints>
+	<children>
+		<WebView fx:id="monitorHeader" prefHeight="200.0" prefWidth="200.0"
+			GridPane.columnSpan="2147483647" />
+		<HBox fx:id="hbox1" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.rowIndex="2" />
+		<HBox fx:id="hbox2" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.columnIndex="1" GridPane.rowIndex="2" />
+		<HBox fx:id="hbox3" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.columnIndex="2" GridPane.rowIndex="2" />
+		<HBox fx:id="hbox4" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.rowIndex="3" />
+		<HBox fx:id="hbox5" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.columnIndex="1" GridPane.rowIndex="3" />
+		<HBox fx:id="hbox6" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.columnIndex="2" GridPane.rowIndex="3" />
+		<WebView fx:id="monitorRightpanelFxID" prefHeight="200.0"
+			prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1"
+			GridPane.rowSpan="2147483647" />
+		<Pane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.rowIndex="1" />
+		<Pane fx:id="pane2" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.columnIndex="1" GridPane.rowIndex="1" />
+		<Pane fx:id="pane3" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0"
+			prefWidth="337.0" style="-fx-background-color: #333333;"
+			GridPane.columnIndex="2" GridPane.rowIndex="1" />
+	</children>
+</GridPane>
